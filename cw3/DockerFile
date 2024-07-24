@@ -1,0 +1,3 @@
+FROM alpine:latest
+ENV MY_VAR="Hello, Docker!"
+CMD ["sh", "-c", "echo $MY_VAR"]
